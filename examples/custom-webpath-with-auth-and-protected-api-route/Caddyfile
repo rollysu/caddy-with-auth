@@ -15,9 +15,7 @@
 			ui {
 				links {
 					"Remnawave" "/dashboard/home" icon "las la-tachometer-alt"
-					"My Identity" "/{$REMNAWAVE_CUSTOM_LOGIN_ROUTE}/whoami" icon "las la-user"
-					"API Keys" "/{$REMNAWAVE_CUSTOM_LOGIN_ROUTE}/settings/apikeys" icon "las la-key"
-					"MFA" "/{$REMNAWAVE_CUSTOM_LOGIN_ROUTE}/settings/mfa" icon "lab la-keycdn"
+					"API Keys" "/{$REMNAWAVE_CUSTOM_LOGIN_ROUTE}/profile/" icon "las la-key"
 				}
 			}
 			transform user {
